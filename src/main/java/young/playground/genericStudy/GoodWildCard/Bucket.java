@@ -1,4 +1,4 @@
-package young.playground.genericStudy.GoodWiledCard;
+package young.playground.genericStudy.GoodWildCard;
 
 import java.util.ArrayList;
 import java.util.List;
