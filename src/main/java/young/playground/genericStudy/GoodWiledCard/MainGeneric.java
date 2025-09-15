@@ -1,4 +1,4 @@
-package young.playground.genericStudy.GoodWileCard;
+package young.playground.genericStudy.GoodWiledCard;
 
 
 public class MainGeneric {
