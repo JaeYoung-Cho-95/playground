@@ -1,1 +1,18 @@
-spring.application.name=playground
+spring:
+  application:
+    name: playground
+
+  datasource:
+    url: jdbc:h2:file:~/projects/playground/playgroundDB
+    username: master
+    password: 1234
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
