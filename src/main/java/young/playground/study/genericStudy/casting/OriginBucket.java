@@ -1,4 +1,4 @@
-package young.playground.genericStudy.casting;
+package young.playground.study.genericStudy.casting;
 
 
 public class OriginBucket<T> {

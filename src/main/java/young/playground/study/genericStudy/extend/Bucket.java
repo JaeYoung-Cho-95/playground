@@ -1,4 +1,4 @@
-package young.playground.genericStudy.casting;
+package young.playground.study.genericStudy.extend;
 
 import java.util.ArrayList;
 import java.util.List;

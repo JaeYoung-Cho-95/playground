@@ -1,7 +1,7 @@
-package young.playground.genericStudy.wildCard;
+package young.playground.study.genericStudy.extend;
 
 
-public class OriginBucket<T> {
+public class OriginBucket<T extends Animal> {
   private T[] bucket;
 
   public OriginBucket(T[] bucket) {

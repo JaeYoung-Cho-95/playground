@@ -1,4 +1,4 @@
-package young.playground.genericStudy.extend;
+package young.playground.study.genericStudy.casting;
 
 
 public class MainGeneric {
@@ -10,8 +10,7 @@ public class MainGeneric {
         smallCat,
         bigCat
     };
-
-    OriginBucket<Cat> catOriginBucket = new OriginBucket<>(catList);
-    new OriginBucket<>(catList);
+//    OriginBucket<Animal> catBucket = new OriginBucket<Cat>(catList);
+//    OriginBucket<Object> objectBucket = new OriginBucket<Cat>(catList);
   }
 }

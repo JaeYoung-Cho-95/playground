@@ -1,17 +1,15 @@
-package young.playground.genericStudy.GoodWildCard;
+package young.playground.study.genericStudy.wildCard;
 
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainGeneric {
   public static void main(String[] args){
     Cat smallCat = new Cat();
     Cat bigCat = new Cat();
 
-    List<Cat> catList = new ArrayList<>();
-    catList.add(smallCat);
-    catList.add(bigCat);
+    Cat[] catList = {
+        smallCat,
+        bigCat
+    };
 
     OriginBucket<? extends Animal> catBucket = new OriginBucket<Cat>(catList);
 
