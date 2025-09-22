@@ -14,7 +14,7 @@ import young.playground.service.AccountService;
 
 @RestController
 @RequiredArgsConstructor
-public class accountController {
+public class AccountController {
 
   private final AccountService accountService;
 
